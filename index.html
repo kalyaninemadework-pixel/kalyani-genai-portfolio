@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalyani G. Nemade | Generative AI & Visual Content Specialist | Creator of Klyra AI</title>
+  
+  <!-- Open Graph & Meta Tags for WhatsApp & LinkedIn Previews -->
+  <meta name="description" content="Portfolio of Kalyani G. Nemade — Generative AI Content Creator, Visual Content Specialist, Prompt Engineer & Creator of Klyra AI. High-impact Midjourney, AI Video & Adobe Creative Suite mastery.">
+  <meta property="og:title" content="Kalyani G. Nemade | GenAI & Visual Design Specialist">
+  <meta property="og:description" content="Transforming raw ideas into commercial-grade visuals with Generative AI, AI Video Pipelines, and custom AI tools.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#090d16">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            deep: '#060911',
+            slateSurface: '#0c1222',
+            slateCard: '#11192e',
+            neonCyan: '#00f2fe',
+            neonTeal: '#4facfe',
+            neonViolet: '#7928ca',
+            neonMagenta: '#ff007f',
+            electricBlue: '#38bdf8'
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+            display: ['"Space Grotesk"', 'sans-serif']
+          },
+          boxShadow: {
+            'glow-cyan': '0 0 25px -5px rgba(0, 242, 254, 0.35)',
+            'glow-violet': '0 0 30px -5px rgba(121, 40, 202, 0.4)',
+            'glow-card': '0 10px 30px -10px rgba(0, 0, 0, 0.7), 0 0 20px -2px rgba(0, 242, 254, 0.1)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #060911;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1f293d;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #00f2fe;
+    }
+
+    /* Ambient Background Mesh */
+    .bg-mesh {
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(0, 242, 254, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 30%, rgba(121, 40, 202, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 50% 80%, rgba(79, 172, 254, 0.06) 0%, transparent 50%);
+    }
+
+    /* Subtle Animated Grid Pattern */
+    .bg-cyber-grid {
+      background-size: 50px 50px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    }
+
+    /* Glassmorphism Classes */
+    .glass-nav {
+      background: rgba(9, 13, 22, 0.82);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    }
+
+    .glass-card {
+      background: rgba(12, 18, 34, 0.65);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .glass-card:hover {
+      border-color: rgba(0, 242, 254, 0.35);
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #ffffff 20%, #4facfe 70%, #00f2fe 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gradient-violet-text {
+      background: linear-gradient(135deg, #00f2fe 0%, #a78bfa 50%, #f43f5e 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Shimmer animation */
+    @keyframes shimmer {
+      0% { background-position: -200% 0; }
+      100% { background-position: 200% 0; }
+    }
+    .animate-shimmer {
+      background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.12) 50%, rgba(255,255,255,0) 100%);
+      background-size: 200% 100%;
+      animation: shimmer 3s infinite;
+    }
+  </style>
+</head>
+<body class="bg-deep text-slate-200 font-sans antialiased selection:bg-neonCyan selection:text-black min-h-screen relative overflow-x-hidden bg-mesh bg-cyber-grid">
+
+  <!-- Ambient Floating Glow Orbs (Pure CSS) -->
+  <div class="fixed top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-neonViolet/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+  <div class="fixed bottom-1/3 -right-20 w-[500px] h-[500px] bg-neonCyan/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+
+  <!-- FIXED NAVBAR -->
+  <nav class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo / Identity -->
+      <a href="#hero" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-neonCyan via-neonTeal to-neonViolet p-[1.5px] transition-transform duration-300 group-hover:scale-105 shadow-glow-cyan">
+          <div class="w-full h-full bg-deep rounded-[10px] flex items-center justify-center font-display font-bold text-lg text-white">
+            K<span class="text-neonCyan">N</span>
+          </div>
+        </div>
+        <div>
+          <span class="font-display font-bold text-lg text-white tracking-wide flex items-center gap-1.5">
+            Kalyani G. Nemade
+            <span class="inline-block w-2 h-2 rounded-full bg-neonCyan animate-ping"></span>
+          </span>
+          <span class="text-[11px] block font-mono text-slate-400 tracking-wider uppercase">GenAI & Visual Specialist</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <div class="hidden md:flex items-center space-x-7 text-sm font-medium text-slate-300">
+        <a href="#hero" class="hover:text-neonCyan transition-colors">Home</a>
+        <a href="#klyra-ai" class="hover:text-neonCyan flex items-center gap-1 text-neonCyan font-semibold transition-colors">
+          <i class="fa-solid fa-sparkles text-xs"></i> Klyra AI
+        </a>
+        <a href="#workflow-stack" class="hover:text-neonCyan transition-colors">Tech Stack</a>
+        <a href="#case-studies" class="hover:text-neonCyan transition-colors">Visual Work</a>
+        <a href="#social-brand" class="hover:text-neonCyan transition-colors">Content & Reels</a>
+        <a href="#why-hire" class="hover:text-neonCyan transition-colors">Why Me</a>
+      </div>
+
+      <!-- Quick Action Connect Button -->
+      <div class="hidden md:flex items-center gap-3">
+        <a href="https://wa.me/919021654318?text=Hi%20Kalyani%2C%20I%20saw%20your%20GenAI%20%26%20Visual%20Design%20Portfolio!%20Let's%20discuss%20an%20opportunity." 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="px-4 py-2 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 hover:bg-emerald-500/20 text-xs font-mono font-medium flex items-center gap-2 transition-all hover:scale-105">
+          <i class="fa-brands fa-whatsapp text-sm text-emerald-400"></i>
+          <span>Chat on WhatsApp</span>
+        </a>
+
+        <a href="mailto:kalyani.nemade.work@gmail.com?subject=GenAI%20Visual%20Design%20Collaboration" 
+           class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-neonCyan to-neonTeal text-slate-950 font-semibold text-xs tracking-wide shadow-glow-cyan hover:brightness-110 transition-all hover:scale-105 flex items-center gap-2">
+          <i class="fa-regular fa-paper-plane text-xs"></i>
+          <span>Hire Kalyani</span>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenuBtn" aria-label="Toggle Navigation Menu" class="md:hidden p-2 rounded-lg bg-slateCard text-slate-300 hover:text-white border border-slate-700/60 focus:outline-none">
+        <i class="fa-solid fa-bars-staggered text-lg"></i>
+      </button>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobileDrawer" class="hidden md:hidden glass-nav px-6 py-6 border-b border-slate-700/50 space-y-4">
+      <a href="#hero" class="block py-2 text-slate-200 hover:text-neonCyan text-base font-medium">Home</a>
+      <a href="#klyra-ai" class="block py-2 text-neonCyan font-semibold text-base flex items-center gap-2">
+        <i class="fa-solid fa-wand-magic-sparkles text-xs"></i> Klyra AI (Flagship Project)
+      </a>
+      <a href="#workflow-stack" class="block py-2 text-slate-200 hover:text-neonCyan text-base font-medium">Core Workflow Stack</a>
+      <a href="#case-studies" class="block py-2 text-slate-200 hover:text-neonCyan text-base font-medium">Visual Case Studies</a>
+      <a href="#social-brand" class="block py-2 text-slate-200 hover:text-neonCyan text-base font-medium">Instagram & Reels</a>
+      <a href="#why-hire" class="block py-2 text-slate-200 hover:text-neonCyan text-base font-medium">Why Hire Kalyani</a>
+      
+      <div class="pt-4 border-t border-slate-800 flex flex-col gap-3">
+        <a href="https://wa.me/919021654318?text=Hi%20Kalyani%2C%20I%20saw%20your%20GenAI%20Portfolio!" 
+           target="_blank"
+           class="w-full py-3 rounded-xl bg-emerald-500/20 border border-emerald-500/40 text-emerald-300 font-semibold text-center flex items-center justify-center gap-2">
+          <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp Direct (+91 9021654318)
+        </a>
+        <a href="mailto:kalyani.nemade.work@gmail.com" 
+           class="w-full py-3 rounded-xl bg-gradient-to-r from-neonCyan to-neonTeal text-slate-950 font-bold text-center">
+          kalyani.nemade.work@gmail.com
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN WRAPPER -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-16 space-y-28">
+
+    <!-- ======================================================== -->
+    <!-- SECTION 1: HERO SECTION -->
+    <!-- ======================================================== -->
+    <section id="hero" class="pt-8 sm:pt-14 pb-8 flex flex-col items-center text-center relative">
+      
+      <!-- Glowing Pill Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slateCard/80 border border-neonCyan/40 text-slate-200 text-xs sm:text-sm font-mono mb-8 backdrop-blur-md shadow-glow-cyan hover:border-neonCyan transition-all">
+        <span class="flex h-2 w-2 relative">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-neonCyan opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-neonCyan"></span>
+        </span>
+        <span class="text-neonCyan font-semibold">Available for GenAI & Visual Design Projects</span>
+        <span class="text-slate-500">•</span>
+        <span class="text-slate-400">Pune, India & Remote</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-display font-extrabold tracking-tight max-w-5xl leading-[1.12] mb-6">
+        Transforming Raw Ideas into <br class="hidden sm:block" />
+        <span class="gradient-text">High-Impact Visuals</span> with <br class="hidden sm:block" />
+        <span class="gradient-violet-text">Generative AI</span>
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="max-w-3xl text-base sm:text-xl text-slate-400 font-normal leading-relaxed mb-10">
+        Creative Technologist bridging high-end prompt engineering, AI video production, 
+        and custom AI tools like <strong class="text-white font-semibold">Klyra AI</strong>. Combining algorithmic technical depth with agency-grade Adobe finishing.
+      </p>
+
+      <!-- Primary Action Buttons (CTAs) -->
+      <div class="flex flex-wrap items-center justify-center gap-4 mb-16 w-full max-w-2xl">
+        <a href="#case-studies" 
+           class="w-full sm:w-auto px-7 py-4 rounded-xl bg-gradient-to-r from-neonCyan via-neonTeal to-neonViolet text-slate-950 font-bold text-sm tracking-wide shadow-glow-cyan hover:shadow-glow-violet transition-all duration-300 hover:scale-105 flex items-center justify-center gap-3">
+          <i class="fa-solid fa-eye text-sm"></i>
+          <span>Explore Visual Works</span>
+        </a>
+
+        <a href="#klyra-ai" 
+           class="w-full sm:w-auto px-7 py-4 rounded-xl bg-slateCard/80 border border-slate-700/80 text-white font-semibold text-sm hover:border-neonCyan hover:bg-slate-800/80 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-3 backdrop-blur-md shadow-glow-card">
+          <i class="fa-solid fa-microchip text-neonCyan"></i>
+          <span>Inspect Klyra AI Engine</span>
+        </a>
+
+        <a href="https://wa.me/919021654318?text=Hi%20Kalyani%2C%20let's%20collaborate%20on%20a%20GenAI%20project!" 
+           target="_blank"
+           class="w-full sm:w-auto px-6 py-4 rounded-xl bg-emerald-500/10 border border-emerald-500/40 text-emerald-400 font-semibold text-sm hover:bg-emerald-500/20 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2.5">
+          <i class="fa-brands fa-whatsapp text-lg text-emerald-400"></i>
+          <span>Chat on WhatsApp</span>
+        </a>
+      </div>
+
+      <!-- Quick Metrics Bar (Bento Pill Bar) -->
+      <div class="w-full max-w-5xl glass-card rounded-2xl p-6 sm:p-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-left relative overflow-hidden">
+        <div class="absolute inset-0 animate-shimmer pointer-events-none opacity-20"></div>
+
+        <div class="border-l-2 border-neonCyan pl-4 space-y-1">
+          <div class="font-display font-extrabold text-2xl sm:text-3xl text-white">500+</div>
+          <div class="text-xs sm:text-sm font-medium text-slate-400">Engineered Prompts</div>
+          <div class="text-[11px] text-neonCyan font-mono">Midjourney & Firefly</div>
+        </div>
+
+        <div class="border-l-2 border-neonViolet pl-4 space-y-1">
+          <div class="font-display font-extrabold text-2xl sm:text-3xl text-white">4K</div>
+          <div class="text-xs sm:text-sm font-medium text-slate-400">Commercial Visuals</div>
+          <div class="text-[11px] text-neonViolet font-mono">Agency & Campaign Grade</div>
+        </div>
+
+        <div class="border-l-2 border-neonTeal pl-4 space-y-1">
+          <div class="font-display font-extrabold text-2xl sm:text-3xl text-white">Klyra AI</div>
+          <div class="text-xs sm:text-sm font-medium text-slate-400">Proprietary GenAI Engine</div>
+          <div class="text-[11px] text-neonTeal font-mono">Open Source on GitHub</div>
+        </div>
+
+        <div class="border-l-2 border-emerald-400 pl-4 space-y-1">
+          <div class="font-display font-extrabold text-2xl sm:text-3xl text-white">Full-Stack</div>
+          <div class="text-xs sm:text-sm font-medium text-slate-400">Multi-Tool Pipeline</div>
+          <div class="text-[11px] text-emerald-400 font-mono">AI + Photoshop + Premiere</div>
+        </div>
+
+      </div>
+
+      <!-- Social Quick Badges Bar -->
+      <div class="mt-8 flex flex-wrap items-center justify-center gap-3 text-xs text-slate-400">
+        <span class="text-slate-500 font-mono">Verified Presence:</span>
+        <a href="https://linkedin.com" target="_blank" class="hover:text-neonCyan transition-colors flex items-center gap-1.5 bg-slate-900/60 px-3 py-1 rounded-full border border-slate-800">
+          <i class="fa-brands fa-linkedin text-blue-400"></i> LinkedIn
+        </a>
+        <a href="https://github.com" target="_blank" class="hover:text-neonCyan transition-colors flex items-center gap-1.5 bg-slate-900/60 px-3 py-1 rounded-full border border-slate-800">
+          <i class="fa-brands fa-github text-slate-200"></i> GitHub
+        </a>
+        <a href="https://instagram.com/ai.advantage.daily" target="_blank" class="hover:text-neonCyan transition-colors flex items-center gap-1.5 bg-slate-900/60 px-3 py-1 rounded-full border border-slate-800">
+          <i class="fa-brands fa-instagram text-pink-400"></i> @ai.advantage.daily
+        </a>
+        <a href="https://instagram.com/aarohi.vibess_" target="_blank" class="hover:text-neonCyan transition-colors flex items-center gap-1.5 bg-slate-900/60 px-3 py-1 rounded-full border border-slate-800">
+          <i class="fa-brands fa-instagram text-violet-400"></i> @aarohi.vibess_
+        </a>
+      </div>
+
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- SECTION 2: SPECIAL FLAGSHIP SPOTLIGHT: KLYRA AI -->
+    <!-- ======================================================== -->
+    <section id="klyra-ai" class="relative">
+      
+      <!-- Section Title Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-neonViolet/20 border border-neonViolet/40 text-violet-300 text-xs font-mono uppercase tracking-wider mb-3">
+          <i class="fa-solid fa-crown text-neonViolet"></i> The Proprietary Engine
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white">
+          Flagship Project: <span class="gradient-violet-text">Klyra AI</span>
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-3">
+          Beyond prompt engineering: Kalyani built an intelligent platform that codifies creative prompt architectures, brand ideation algorithms, and automated visual synthesis.
+        </p>
+      </div>
+
+      <!-- Spotlight Glassmorphic Hero Card -->
+      <div class="glass-card rounded-3xl p-8 sm:p-12 relative overflow-hidden border border-slate-700/60 shadow-[0_0_50px_rgba(121,40,202,0.18)]">
+        
+        <!-- Background Ambient Accent Gradient -->
+        <div class="absolute -top-32 -right-32 w-96 h-96 bg-neonViolet/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-24 -left-24 w-80 h-80 bg-neonCyan/15 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center relative z-10">
+          
+          <!-- Left Column: Story, Specs, and Actions -->
+          <div class="lg:col-span-7 space-y-6 text-left">
+            
+            <div class="flex flex-wrap items-center gap-2.5">
+              <span class="px-3 py-1 rounded-full bg-neonCyan/10 border border-neonCyan/30 text-neonCyan text-xs font-mono font-semibold">
+                Proprietary Innovation • Built by Kalyani
+              </span>
+              <span class="px-3 py-1 rounded-full bg-slate-800 text-slate-300 text-xs font-mono">
+                v2.4 Production Engine
+              </span>
+            </div>
+
+            <h3 class="text-2xl sm:text-4xl font-display font-bold text-white tracking-tight leading-tight">
+              Klyra AI — Next-Gen Creative Intelligence Platform
+            </h3>
+
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+              An advanced Generative AI assistant engineered to accelerate creative workflows, intelligent prompt expansion, brand ideation, and digital asset generation. Demonstrates deep end-to-end technical mastery of GenAI architectures, LLM orchestration, and generative pipelines.
+            </p>
+
+            <!-- Key Feature Bullets -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs text-slate-300">
+              <div class="flex items-start gap-2">
+                <i class="fa-solid fa-circle-check text-neonCyan mt-0.5"></i>
+                <span><strong>Multi-Engine Compounding:</strong> Auto-translates ideas into Midjourney v6, Firefly & SDXL syntax.</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <i class="fa-solid fa-circle-check text-neonViolet mt-0.5"></i>
+                <span><strong>Brand Cohesion Guard:</strong> Locks lighting seeds, color temperatures & camera rigs.</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <i class="fa-solid fa-circle-check text-neonTeal mt-0.5"></i>
+                <span><strong>Negative Prompt Matrix:</strong> Automatically purges anatomical and chromatic artifacts.</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <i class="fa-solid fa-circle-check text-emerald-400 mt-0.5"></i>
+                <span><strong>Python Backend:</strong> Powered by modular LLM orchestrators and async API pipelines.</span>
+              </div>
+            </div>
+
+            <!-- Tech Stack Tags -->
+            <div class="pt-3">
+              <div class="text-xs font-mono uppercase text-slate-400 mb-2">Engine Architecture Stack:</div>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-md bg-slate-900 border border-slate-700 text-xs font-mono text-cyan-300">Python 3.11</span>
+                <span class="px-2.5 py-1 rounded-md bg-slate-900 border border-slate-700 text-xs font-mono text-purple-300">Generative AI</span>
+                <span class="px-2.5 py-1 rounded-md bg-slate-900 border border-slate-700 text-xs font-mono text-blue-300">LLM Orchestration</span>
+                <span class="px-2.5 py-1 rounded-md bg-slate-900 border border-slate-700 text-xs font-mono text-emerald-300">Prompt Architecture</span>
+                <span class="px-2.5 py-1 rounded-md bg-slate-900 border border-slate-700 text-xs font-mono text-pink-300">FastAPI</span>
+                <span class="px-2.5 py-1 rounded-md bg-slate-900 border border-slate-700 text-xs font-mono text-yellow-300">Open Source</span>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-wrap items-center gap-3 pt-4">
+              <a href="https://github.com" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 class="px-5 py-3 rounded-xl bg-white text-slate-950 font-bold text-xs sm:text-sm hover:bg-slate-200 transition-all flex items-center gap-2 shadow-lg">
+                <i class="fa-brands fa-github text-base"></i>
+                <span>Inspect Repository on GitHub</span>
+              </a>
+
+              <button onclick="openKlyraSimulator()" 
+                      class="px-5 py-3 rounded-xl bg-neonViolet/20 border border-neonViolet/50 text-white font-semibold text-xs sm:text-sm hover:bg-neonViolet/30 transition-all flex items-center gap-2">
+                <i class="fa-solid fa-play text-neonCyan text-xs"></i>
+                <span>Live Interactive Demo</span>
+              </button>
+
+              <button onclick="openArchitectureModal()" 
+                      class="px-5 py-3 rounded-xl bg-slate-800/80 border border-slate-700 text-slate-300 font-medium text-xs sm:text-sm hover:border-slate-500 hover:text-white transition-all flex items-center gap-2">
+                <i class="fa-solid fa-diagram-project text-xs"></i>
+                <span>Architecture Breakdown</span>
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Interactive Terminal & Visual Preview -->
+          <div class="lg:col-span-5">
+            <div class="rounded-2xl bg-slate-950/90 border border-slate-800 shadow-2xl overflow-hidden font-mono text-xs">
+              
+              <!-- Terminal Header Bar -->
+              <div class="px-4 py-3 bg-slate-900/90 border-b border-slate-800 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <span class="w-3 h-3 rounded-full bg-rose-500/80 inline-block"></span>
+                  <span class="w-3 h-3 rounded-full bg-amber-500/80 inline-block"></span>
+                  <span class="w-3 h-3 rounded-full bg-emerald-500/80 inline-block"></span>
+                  <span class="text-[11px] text-slate-400 ml-2">klyra_engine_runtime.py</span>
+                </div>
+                <span class="text-[10px] text-neonCyan px-2 py-0.5 rounded bg-neonCyan/10 border border-neonCyan/30">ONLINE</span>
+              </div>
+
+              <!-- Terminal Code Content -->
+              <div class="p-5 space-y-3 text-slate-300 leading-relaxed overflow-x-auto">
+                <div class="text-slate-500"># Initializing Klyra AI Creative Orchestrator</div>
+                <div>
+                  <span class="text-pink-400">from</span> klyra_core <span class="text-pink-400">import</span> PromptSynthesizer, StylePreserver
+                </div>
+                <div>
+                  <span class="text-cyan-400">engine</span> = PromptSynthesizer(model=<span class="text-emerald-300">"Midjourney-v6"</span>, quality=<span class="text-yellow-300">"Commercial_8K"</span>)
+                </div>
+                <div class="pt-2 text-slate-500"># Input: Raw Brief from Brand Client</div>
+                <div class="p-2.5 rounded bg-slate-900 border border-slate-800 text-slate-200">
+                  <span class="text-slate-400 font-sans text-xs">"Futuristic cyberpunk perfume bottle floating on dark water with neon reflections"</span>
+                </div>
+                <div class="text-slate-500"># Klyra AI Expanded Production Prompt:</div>
+                <div class="p-2.5 rounded bg-neonCyan/5 border border-neonCyan/30 text-neonCyan text-[11px] font-mono select-all">
+                  Commercial luxury obsidian flacon, glowing cyan luminescent core, chromatic caustics, Hasselblad H6D-100c, 85mm f/1.4, cinematic volumetric haze --ar 16:9 --v 6.0 --stylize 850
+                </div>
+                <div class="pt-2 flex items-center justify-between text-[11px] text-slate-400">
+                  <span>Latency: <span class="text-emerald-400 font-bold">142ms</span></span>
+                  <span>Aesthetic Score: <span class="text-yellow-400 font-bold">9.8/10</span></span>
+                  <button onclick="copyText('Commercial luxury obsidian flacon, glowing cyan luminescent core, chromatic caustics, Hasselblad H6D-100c, 85mm f/1.4, cinematic volumetric haze --ar 16:9 --v 6.0 --stylize 850', 'Klyra AI Prompt copied!')" class="text-neonCyan hover:underline">
+                    <i class="fa-regular fa-copy"></i> Copy Output
+                  </button>
+                </div>
+              </div>
+
+              <!-- Terminal Footer Summary -->
+              <div class="p-3 bg-slate-900/60 border-t border-slate-800 text-center text-[11px] text-slate-400">
+                <i class="fa-solid fa-code-branch text-neonViolet mr-1"></i> Ready for integration into brand agency workflows.
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- SECTION 3: CORE TECH & WORKFLOW STACK (Interactive Bento Grid) -->
+    <!-- ======================================================== -->
+    <section id="workflow-stack" class="relative">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-neonCyan/10 border border-neonCyan/30 text-neonCyan text-xs font-mono uppercase tracking-wider mb-3">
+          <i class="fa-solid fa-cubes-stacked"></i> Production Workflow Stack
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white">
+          Multi-Tool <span class="gradient-text">Generative Ecosystem</span>
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-3">
+          Mastery is not about relying on a single tool. It is about chaining specialized AI engines with industry-standard Adobe post-production and custom software.
+        </p>
+      </div>
+
+      <!-- Bento Grid (4 Pillars) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Bento Card 1: AI Image Engines -->
+        <div class="glass-card rounded-2xl p-7 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5 shadow-glow-card group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-neonCyan/10 border border-neonCyan/30 flex items-center justify-center text-neonCyan text-xl mb-6 group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-image"></i>
+            </div>
+            <div class="text-xs font-mono text-neonCyan uppercase font-semibold mb-1">Visual Synthesis</div>
+            <h3 class="text-xl font-display font-bold text-white mb-3">AI Image Engines</h3>
+            <p class="text-xs text-slate-400 leading-relaxed mb-6">
+              Precision prompt weights, multi-angle character consistency, inpainting, style transfer, and commercial-grade resolution scaling.
+            </p>
+          </div>
+          <div class="space-y-2 pt-4 border-t border-slate-800">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">Midjourney v6.0</span>
+              <span class="text-neonCyan">98% Mastery</span>
+            </div>
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">Adobe Firefly</span>
+              <span class="text-neonCyan">Commercial Safe</span>
+            </div>
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">DALL-E 3 & SDXL</span>
+              <span class="text-slate-400">Composition</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 2: AI Video & Motion -->
+        <div class="glass-card rounded-2xl p-7 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5 shadow-glow-card group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-neonViolet/10 border border-neonViolet/30 flex items-center justify-center text-neonViolet text-xl mb-6 group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-clapperboard"></i>
+            </div>
+            <div class="text-xs font-mono text-neonViolet uppercase font-semibold mb-1">Dynamic Motion</div>
+            <h3 class="text-xl font-display font-bold text-white mb-3">AI Video & Motion</h3>
+            <p class="text-xs text-slate-400 leading-relaxed mb-6">
+              Cinematic camera steering, dynamic frame interpolation, pacing controls, and prompt-driven motion consistency for viral reels.
+            </p>
+          </div>
+          <div class="space-y-2 pt-4 border-t border-slate-800">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">Higgsfield & Runway Gen-2</span>
+              <span class="text-neonViolet">Camera Pacing</span>
+            </div>
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">Seedance</span>
+              <span class="text-neonViolet">Motion Realism</span>
+            </div>
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">Google Flow / Veo</span>
+              <span class="text-slate-400">Next-Gen Video</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 3: Post-Processing & Finishing -->
+        <div class="glass-card rounded-2xl p-7 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5 shadow-glow-card group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-neonTeal/10 border border-neonTeal/30 flex items-center justify-center text-neonTeal text-xl mb-6 group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+            <div class="text-xs font-mono text-neonTeal uppercase font-semibold mb-1">Agency Polish</div>
+            <h3 class="text-xl font-display font-bold text-white mb-3">Adobe Creative Suite</h3>
+            <p class="text-xs text-slate-400 leading-relaxed mb-6">
+              AI generates the base; professional finishing delivers the final campaign. Frequency separation, color grading, typography & motion polish.
+            </p>
+          </div>
+          <div class="space-y-2 pt-4 border-t border-slate-800">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">Adobe Photoshop</span>
+              <span class="text-neonTeal">High-End Retouch</span>
+            </div>
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">Adobe Premiere Pro</span>
+              <span class="text-neonTeal">Pacing & Cut</span>
+            </div>
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">After Effects & Illustrator</span>
+              <span class="text-slate-400">VFX & Vector</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 4: AI Systems & Development -->
+        <div class="glass-card rounded-2xl p-7 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5 shadow-glow-card group">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-xl mb-6 group-hover:scale-110 transition-transform">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <div class="text-xs font-mono text-emerald-400 uppercase font-semibold mb-1">Engineering Depth</div>
+            <h3 class="text-xl font-display font-bold text-white mb-3">AI Systems & Code</h3>
+            <p class="text-xs text-slate-400 leading-relaxed mb-6">
+              Software engineering foundation (BCA 2026). Custom Python automation pipelines, FastAPI wrappers, and LLM prompt architecture.
+            </p>
+          </div>
+          <div class="space-y-2 pt-4 border-t border-slate-800">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">Klyra AI Engine</span>
+              <span class="text-emerald-400">Proprietary Core</span>
+            </div>
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">Python, FastAPI, SQL</span>
+              <span class="text-emerald-400">Backend Ready</span>
+            </div>
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white">FinAgent & PulseOps</span>
+              <span class="text-slate-400">Hackathon Proven</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- SECTION 4: FEATURED VISUAL CASE STUDIES (With Filter Tabs) -->
+    <!-- ======================================================== -->
+    <section id="case-studies" class="relative">
+      
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-neonCyan/10 border border-neonCyan/30 text-neonCyan text-xs font-mono uppercase tracking-wider mb-3">
+          <i class="fa-solid fa-palette"></i> Commercial Visual Portfolio
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white">
+          Featured <span class="gradient-text">Visual Case Studies</span>
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-3">
+          Every visual represents an end-to-end production pipeline: from conceptual prompt engineering to Adobe post-production grading. Click any card to inspect the master prompts.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-12">
+        <button class="filter-btn active px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold font-mono transition-all bg-neonCyan text-slate-950 shadow-glow-cyan" data-filter="all">
+          All Projects (6)
+        </button>
+        <button class="filter-btn px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold font-mono transition-all bg-slate-900/80 text-slate-300 hover:text-white border border-slate-800" data-filter="brand">
+          Brand Campaigns
+        </button>
+        <button class="filter-btn px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold font-mono transition-all bg-slate-900/80 text-slate-300 hover:text-white border border-slate-800" data-filter="motion">
+          AI Motion Reels
+        </button>
+        <button class="filter-btn px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold font-mono transition-all bg-slate-900/80 text-slate-300 hover:text-white border border-slate-800" data-filter="klyra">
+          Klyra AI Works
+        </button>
+        <button class="filter-btn px-5 py-2 rounded-xl text-xs sm:text-sm font-semibold font-mono transition-all bg-slate-900/80 text-slate-300 hover:text-white border border-slate-800" data-filter="concept">
+          Concept Art
+        </button>
+      </div>
+
+      <!-- 6 Visual Project Cards Grid -->
+      <div id="projectsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- CARD 1: Cyber-Luxe Perfume Commercial -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden border border-slate-800 hover:border-neonCyan/50 transition-all duration-300 group flex flex-col justify-between" data-category="brand concept">
+          <div class="relative overflow-hidden aspect-[16/10] bg-slate-950">
+            <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=80" 
+                 alt="Cyber-Luxe Perfume Commercial" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 brightness-90 group-hover:brightness-100">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-deep/80 border border-neonCyan/40 text-neonCyan text-[11px] font-mono backdrop-blur-md">
+              Midjourney v6 + Photoshop
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-[11px] font-mono text-slate-400 uppercase tracking-wider mb-1">Luxury Commercial</div>
+              <h3 class="text-xl font-display font-bold text-white mb-2 group-hover:text-neonCyan transition-colors">
+                Cyber-Luxe Perfume Commercial
+              </h3>
+              <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                High-end flacon photography featuring obsidian glass, luminescent cyan refraction, and caustics designed for international luxury cosmetics.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <span class="text-[11px] font-mono text-slate-500">Pipeline: 3-Stage Polish</span>
+              <button onclick="openModal(0)" class="text-xs font-semibold text-neonCyan hover:text-white flex items-center gap-1.5 transition-colors">
+                <span>View Prompt & Pipeline</span>
+                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2: Klyra AI Creative Asset Engine -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden border border-slate-800 hover:border-neonViolet/50 transition-all duration-300 group flex flex-col justify-between" data-category="klyra">
+          <div class="relative overflow-hidden aspect-[16/10] bg-slate-950">
+            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80" 
+                 alt="Klyra AI Creative Asset Engine" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 brightness-90 group-hover:brightness-100">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-deep/80 border border-neonViolet/40 text-violet-300 text-[11px] font-mono backdrop-blur-md">
+              Klyra AI Pipeline • Custom Python
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-[11px] font-mono text-violet-400 uppercase tracking-wider mb-1">Proprietary AI Engine</div>
+              <h3 class="text-xl font-display font-bold text-white mb-2 group-hover:text-violet-300 transition-colors">
+                Klyra AI Creative Asset Engine
+              </h3>
+              <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                Automated brand asset generation chaining Python prompt optimization, algorithmic negative weighting, and high-fidelity output.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <span class="text-[11px] font-mono text-slate-500">Pipeline: Python + LLM</span>
+              <button onclick="openModal(1)" class="text-xs font-semibold text-violet-400 hover:text-white flex items-center gap-1.5 transition-colors">
+                <span>View Prompt & Pipeline</span>
+                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3: Futuristic Streetwear Ad Campaign -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden border border-slate-800 hover:border-neonCyan/50 transition-all duration-300 group flex flex-col justify-between" data-category="brand">
+          <div class="relative overflow-hidden aspect-[16/10] bg-slate-950">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80" 
+                 alt="Futuristic Streetwear Ad Campaign" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 brightness-90 group-hover:brightness-100">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-deep/80 border border-neonTeal/40 text-neonTeal text-[11px] font-mono backdrop-blur-md">
+              Firefly + Illustrator
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-[11px] font-mono text-neonTeal uppercase tracking-wider mb-1">Fashion Editorial</div>
+              <h3 class="text-xl font-display font-bold text-white mb-2 group-hover:text-neonTeal transition-colors">
+                Futuristic Streetwear Ad Campaign
+              </h3>
+              <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                Neo-Tokyo cyber street editorial featuring metallic chrome outerwear, rain reflection depth, and bespoke typography branding lockups.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <span class="text-[11px] font-mono text-slate-500">Pipeline: AI + Vector</span>
+              <button onclick="openModal(2)" class="text-xs font-semibold text-neonCyan hover:text-white flex items-center gap-1.5 transition-colors">
+                <span>View Prompt & Pipeline</span>
+                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4: Cinematic Sci-Fi Film Teaser -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden border border-slate-800 hover:border-neonViolet/50 transition-all duration-300 group flex flex-col justify-between" data-category="motion">
+          <div class="relative overflow-hidden aspect-[16/10] bg-slate-950">
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1000&q=80" 
+                 alt="Cinematic Sci-Fi Film Teaser" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 brightness-90 group-hover:brightness-100">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-deep/80 border border-neonViolet/40 text-violet-300 text-[11px] font-mono backdrop-blur-md">
+              Higgsfield + Premiere Pro
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-[11px] font-mono text-violet-400 uppercase tracking-wider mb-1">AI Video Motion</div>
+              <h3 class="text-xl font-display font-bold text-white mb-2 group-hover:text-violet-300 transition-colors">
+                Cinematic Sci-Fi Film Teaser
+              </h3>
+              <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                Alien monolith atmosphere with volumetric sandstorms, twin-moon lighting, and motion-interpolated camera panning.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <span class="text-[11px] font-mono text-slate-500">Pipeline: Motion Steering</span>
+              <button onclick="openModal(3)" class="text-xs font-semibold text-violet-400 hover:text-white flex items-center gap-1.5 transition-colors">
+                <span>View Prompt & Pipeline</span>
+                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 5: Hyper-Realistic Beverage Poster -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden border border-slate-800 hover:border-neonCyan/50 transition-all duration-300 group flex flex-col justify-between" data-category="brand concept">
+          <div class="relative overflow-hidden aspect-[16/10] bg-slate-950">
+            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=80" 
+                 alt="Hyper-Realistic Beverage Poster" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 brightness-90 group-hover:brightness-100">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-deep/80 border border-emerald-400/40 text-emerald-400 text-[11px] font-mono backdrop-blur-md">
+              Midjourney + After Effects
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-[11px] font-mono text-emerald-400 uppercase tracking-wider mb-1">Commercial Poster</div>
+              <h3 class="text-xl font-display font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors">
+                Hyper-Realistic Beverage Poster
+              </h3>
+              <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                Dynamic frozen splash physics, condensation micro-droplets, and high-energy beverage branding prepared for social advertising.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <span class="text-[11px] font-mono text-slate-500">Pipeline: Splash Retouch</span>
+              <button onclick="openModal(4)" class="text-xs font-semibold text-emerald-400 hover:text-white flex items-center gap-1.5 transition-colors">
+                <span>View Prompt & Pipeline</span>
+                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 6: E-Commerce Product Mockup Reel -->
+        <div class="project-card glass-card rounded-2xl overflow-hidden border border-slate-800 hover:border-neonTeal/50 transition-all duration-300 group flex flex-col justify-between" data-category="motion klyra">
+          <div class="relative overflow-hidden aspect-[16/10] bg-slate-950">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80" 
+                 alt="E-Commerce Product Mockup Reel" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 brightness-90 group-hover:brightness-100">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-deep/80 border border-neonCyan/40 text-neonCyan text-[11px] font-mono backdrop-blur-md">
+              Seedance + Photoshop
+            </span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="text-[11px] font-mono text-neonCyan uppercase tracking-wider mb-1">E-Commerce Reel</div>
+              <h3 class="text-xl font-display font-bold text-white mb-2 group-hover:text-neonCyan transition-colors">
+                E-Commerce Product Mockup Reel
+              </h3>
+              <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                Zero-gravity titanium tech product showcase with frosted smoked glass pedestal lighting and dynamic social video pacing.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+              <span class="text-[11px] font-mono text-slate-500">Pipeline: 360 Rotation</span>
+              <button onclick="openModal(5)" class="text-xs font-semibold text-neonCyan hover:text-white flex items-center gap-1.5 transition-colors">
+                <span>View Prompt & Pipeline</span>
+                <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- SECTION 5: CONTENT CREATION & INSTAGRAM REELS (FROM RESUME) -->
+    <!-- ======================================================== -->
+    <section id="social-brand" class="relative">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-pink-500/10 border border-pink-500/30 text-pink-400 text-xs font-mono uppercase tracking-wider mb-3">
+          <i class="fa-brands fa-instagram"></i> Real-World Social Reach & Content
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white">
+          Faceless Content Brands & <span class="gradient-text">Viral Reels</span>
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-3">
+          Kalyani actively operates two dedicated Instagram creator channels — producing faceless AI tool breakdowns, Hinglish video scripts, and aesthetic self-improvement content.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        <!-- Channel 1: @ai.advantage.daily -->
+        <div class="glass-card rounded-2xl p-7 border border-slate-800 hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-cyan-400 to-blue-600 flex items-center justify-center text-white text-xl font-bold">
+                  <i class="fa-solid fa-robot"></i>
+                </div>
+                <div>
+                  <h3 class="text-lg font-bold text-white">@ai.advantage.daily</h3>
+                  <span class="text-xs font-mono text-neonCyan">AI Tools & Student Resources</span>
+                </div>
+              </div>
+              <a href="https://instagram.com/ai.advantage.daily" target="_blank" rel="noopener noreferrer" class="px-3 py-1 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-300 hover:text-white flex items-center gap-1.5">
+                <span>Follow</span> <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+            
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">
+              Faceless brand engineered around practical AI tools, screen-recorded demos, and curated workflows for students and tech freshers. Built with strict 30-day content pillars and reach analytics.
+            </p>
+
+            <div class="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-xs text-slate-400 space-y-2 mb-4">
+              <div class="flex items-center justify-between">
+                <span>Featured Sample Work:</span>
+                <span class="text-neonCyan font-mono">Reel 1</span>
+              </div>
+              <div class="text-slate-300 flex items-center gap-2">
+                <i class="fa-solid fa-play text-neonCyan text-[11px]"></i>
+                <a href="https://www.instagram.com/reel/Dao0uEWsH10" target="_blank" class="hover:underline text-cyan-300 font-mono">
+                  instagram.com/reel/Dao0uEWsH10
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://www.instagram.com/reel/Dao0uEWsH10" target="_blank" class="w-full py-2.5 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-neonCyan text-xs font-mono text-center font-semibold hover:bg-cyan-500/20 transition-all flex items-center justify-center gap-2">
+            <i class="fa-brands fa-instagram text-sm"></i> Watch High-Impact Tool Reel
+          </a>
+        </div>
+
+        <!-- Channel 2: @aarohi.vibess_ -->
+        <div class="glass-card rounded-2xl p-7 border border-slate-800 hover:border-pink-500/40 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-pink-500 via-purple-500 to-indigo-500 flex items-center justify-center text-white text-xl font-bold">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div>
+                  <h3 class="text-lg font-bold text-white">@aarohi.vibess_</h3>
+                  <span class="text-xs font-mono text-pink-400">Aesthetic Self-Improvement</span>
+                </div>
+              </div>
+              <a href="https://instagram.com/aarohi.vibess_" target="_blank" rel="noopener noreferrer" class="px-3 py-1 rounded-lg bg-slate-900 border border-slate-700 text-xs text-slate-300 hover:text-white flex items-center gap-1.5">
+                <span>Follow</span> <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+            
+            <p class="text-xs text-slate-300 leading-relaxed mb-4">
+              Aesthetic visual channel targeting Gen-Z audiences in Hinglish. Focuses on storytelling, hook pacing, sound selection, and converting viral reach into committed follower communities.
+            </p>
+
+            <div class="p-3 rounded-xl bg-slate-900/80 border border-slate-800 text-xs text-slate-400 space-y-2 mb-4">
+              <div class="flex items-center justify-between">
+                <span>Featured Sample Work:</span>
+                <span class="text-pink-400 font-mono">Reel 2</span>
+              </div>
+              <div class="text-slate-300 flex items-center gap-2">
+                <i class="fa-solid fa-play text-pink-400 text-[11px]"></i>
+                <a href="https://www.instagram.com/reel/DbOYsfzs5kl" target="_blank" class="hover:underline text-pink-300 font-mono">
+                  instagram.com/reel/DbOYsfzs5kl
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://www.instagram.com/reel/DbOYsfzs5kl" target="_blank" class="w-full py-2.5 rounded-xl bg-pink-500/10 border border-pink-500/30 text-pink-300 text-xs font-mono text-center font-semibold hover:bg-pink-500/20 transition-all flex items-center justify-center gap-2">
+            <i class="fa-brands fa-instagram text-sm"></i> Watch Aesthetic Reel Case
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- SECTION 6: WHY HIRE ME (The Unfair Advantage) -->
+    <!-- ======================================================== -->
+    <section id="why-hire" class="relative">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-neonViolet/10 border border-neonViolet/30 text-neonViolet text-xs font-mono uppercase tracking-wider mb-3">
+          <i class="fa-solid fa-bolt"></i> Competitive Differentiation
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white">
+          Why Hire Kalyani: <span class="gradient-violet-text">The Unfair Advantage</span>
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-3">
+          Most creators only know how to click 'generate'. Most engineers cannot design compelling visuals. Kalyani unites both disciplines.
+        </p>
+      </div>
+
+      <!-- 3 Pillars Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Pillar 1 -->
+        <div class="glass-card rounded-2xl p-8 border border-slate-800 hover:border-neonCyan/50 transition-all duration-300 relative group">
+          <div class="w-14 h-14 rounded-2xl bg-neonCyan/10 border border-neonCyan/30 flex items-center justify-center text-neonCyan text-2xl mb-6 group-hover:scale-110 transition-transform">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <span class="text-xs font-mono text-neonCyan uppercase font-semibold">Moat 01</span>
+          <h3 class="text-xl font-display font-bold text-white mt-1 mb-3">Creative Vision + Technical Depth</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            I don’t just casually prompt AI engines; I built <strong class="text-white">Klyra AI</strong>, understand latent space behavior, prompt tokens, and backend Python architectures. This enables repeatable, brand-consistent outputs.
+          </p>
+          <div class="mt-6 pt-4 border-t border-slate-800 text-[11px] font-mono text-slate-400 flex items-center gap-2">
+            <i class="fa-solid fa-check text-neonCyan"></i> BCA Software Engineering Background
+          </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="glass-card rounded-2xl p-8 border border-slate-800 hover:border-neonViolet/50 transition-all duration-300 relative group">
+          <div class="w-14 h-14 rounded-2xl bg-neonViolet/10 border border-neonViolet/30 flex items-center justify-center text-neonViolet text-2xl mb-6 group-hover:scale-110 transition-transform">
+            <i class="fa-solid fa-paintbrush"></i>
+          </div>
+          <span class="text-xs font-mono text-neonViolet uppercase font-semibold">Moat 02</span>
+          <h3 class="text-xl font-display font-bold text-white mt-1 mb-3">Agency-Ready Polish</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Raw generative AI outputs are never production-ready. I bridge generative renders into Adobe Photoshop and Premiere Pro for typography lockups, color grading, frequency separation, and audio sync.
+          </p>
+          <div class="mt-6 pt-4 border-t border-slate-800 text-[11px] font-mono text-slate-400 flex items-center gap-2">
+            <i class="fa-solid fa-check text-neonViolet"></i> Pixel-Perfect Commercial Standard
+          </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="glass-card rounded-2xl p-8 border border-slate-800 hover:border-emerald-400/50 transition-all duration-300 relative group">
+          <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-2xl mb-6 group-hover:scale-110 transition-transform">
+            <i class="fa-solid fa-gauge-high"></i>
+          </div>
+          <span class="text-xs font-mono text-emerald-400 uppercase font-semibold">Moat 03</span>
+          <h3 class="text-xl font-display font-bold text-white mt-1 mb-3">Turnaround at AI Velocity</h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Delivering what traditionally took advertising agencies three weeks of concepting, photography, and retakes in 48 hours — with significantly higher variant flexibility and lower production cost.
+          </p>
+          <div class="mt-6 pt-4 border-t border-slate-800 text-[11px] font-mono text-slate-400 flex items-center gap-2">
+            <i class="fa-solid fa-check text-emerald-400"></i> 10x Iteration Speed on Client Briefs
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- SECTION 7: DIRECT HIRE CONTACT FOOTER -->
+    <!-- ======================================================== -->
+    <section id="contact" class="glass-card rounded-3xl p-8 sm:p-14 border border-slate-700/80 relative overflow-hidden text-center shadow-2xl">
+      
+      <!-- Background Ambient Glows -->
+      <div class="absolute -top-24 left-1/2 -translate-x-1/2 w-96 h-96 bg-neonCyan/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="max-w-3xl mx-auto space-y-6 relative z-10">
+        
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-neonCyan/40 text-neonCyan text-xs font-mono">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          Ready to Start Immediately
+        </div>
+
+        <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white leading-tight">
+          Let’s Create Award-Winning <br />
+          <span class="gradient-text">AI Visuals Together.</span>
+        </h2>
+
+        <p class="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
+          Whether you need commercial ad campaigns, faceless short-form video reels, custom prompt frameworks, or enterprise GenAI consulting — let's connect right now.
+        </p>
+
+        <!-- Big Contact CTA Action Row -->
+        <div class="flex flex-wrap items-center justify-center gap-4 pt-4">
+          
+          <!-- Direct WhatsApp Button -->
+          <a href="https://wa.me/919021654318?text=Hi%20Kalyani%2C%20I'm%20impressed%20by%20your%20GenAI%20Portfolio.%20Let's%20discuss%20a%20project!" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             class="px-8 py-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm tracking-wide shadow-lg shadow-emerald-500/20 transition-all hover:scale-105 flex items-center gap-3">
+            <i class="fa-brands fa-whatsapp text-xl"></i>
+            <span>Chat on WhatsApp (+91 9021654318)</span>
+          </a>
+
+          <!-- Email Button -->
+          <a href="mailto:kalyani.nemade.work@gmail.com?subject=Inquiry%20from%20Portfolio%20-%20GenAI%20Opportunity" 
+             class="px-8 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm border border-slate-700 hover:border-neonCyan transition-all hover:scale-105 flex items-center gap-3 shadow-glow-card">
+            <i class="fa-regular fa-envelope text-neonCyan"></i>
+            <span>kalyani.nemade.work@gmail.com</span>
+          </a>
+
+        </div>
+
+        <!-- All Social Media Profiles Full Grid -->
+        <div class="pt-10 border-t border-slate-800 flex flex-wrap items-center justify-center gap-6 text-sm text-slate-400">
+          <a href="https://wa.me/919021654318" target="_blank" class="hover:text-emerald-400 transition-colors flex items-center gap-2">
+            <i class="fa-brands fa-whatsapp text-emerald-400"></i> WhatsApp
+          </a>
+          <a href="mailto:kalyani.nemade.work@gmail.com" class="hover:text-cyan-400 transition-colors flex items-center gap-2">
+            <i class="fa-regular fa-envelope text-cyan-400"></i> Email
+          </a>
+          <a href="https://github.com" target="_blank" class="hover:text-white transition-colors flex items-center gap-2">
+            <i class="fa-brands fa-github"></i> GitHub Profile
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="hover:text-blue-400 transition-colors flex items-center gap-2">
+            <i class="fa-brands fa-linkedin text-blue-400"></i> LinkedIn
+          </a>
+          <a href="https://instagram.com/ai.advantage.daily" target="_blank" class="hover:text-pink-400 transition-colors flex items-center gap-2">
+            <i class="fa-brands fa-instagram text-pink-400"></i> @ai.advantage.daily
+          </a>
+          <a href="https://instagram.com/aarohi.vibess_" target="_blank" class="hover:text-purple-400 transition-colors flex items-center gap-2">
+            <i class="fa-brands fa-instagram text-purple-400"></i> @aarohi.vibess_
+          </a>
+        </div>
+
+        <div class="pt-6 text-xs text-slate-500 font-mono">
+          © 2026 Kalyani Gajanan Nemade • Designed with Cyberpunk Minimal Aesthetics • Zero external build dependencies
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- MODAL 1: INTERACTIVE PROMPT & PIPELINE BREAKDOWN MODAL -->
+  <!-- ======================================================== -->
+  <div id="projectModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-xl">
+    <div class="glass-card w-full max-w-4xl max-h-[90vh] rounded-3xl border border-slate-700/80 overflow-y-auto shadow-2xl relative text-left">
+      
+      <!-- Modal Close Button -->
+      <button onclick="closeModal()" class="absolute top-5 right-5 w-10 h-10 rounded-full bg-slate-900/80 border border-slate-700 text-slate-400 hover:text-white flex items-center justify-center transition-colors z-20">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+
+      <!-- Modal Content Body (Dynamic via JS) -->
+      <div id="modalBody" class="p-6 sm:p-10 space-y-6">
+        <!-- Rendered by JavaScript -->
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- MODAL 2: KLYRA AI INTERACTIVE ARCHITECTURE MODAL -->
+  <!-- ======================================================== -->
+  <div id="archModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-xl">
+    <div class="glass-card w-full max-w-3xl rounded-3xl border border-neonViolet/50 p-6 sm:p-10 text-left relative shadow-glow-violet">
+      <button onclick="closeArchitectureModal()" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-900 border border-slate-700 text-slate-400 hover:text-white flex items-center justify-center">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      
+      <div class="flex items-center gap-3 mb-4">
+        <span class="p-2 rounded-lg bg-neonViolet/20 text-violet-300">
+          <i class="fa-solid fa-diagram-project"></i>
+        </span>
+        <h3 class="text-2xl font-display font-bold text-white">Klyra AI Architecture & Pipeline</h3>
+      </div>
+
+      <p class="text-xs sm:text-sm text-slate-300 leading-relaxed mb-6">
+        Klyra AI acts as an intelligent intermediary between raw human briefs and generative latent diffusion models. Built with a modular Python backend.
+      </p>
+
+      <div class="space-y-4 font-mono text-xs">
+        <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+          <div class="text-neonCyan font-bold mb-1">STAGE 1: Intent Dissection & Entity Tagging</div>
+          <p class="text-slate-400 font-sans text-xs">Extracts subject, mood, camera framing, lighting style, and commercial constraints from client input.</p>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+          <div class="text-neonViolet font-bold mb-1">STAGE 2: Latent Weight Expansion & Syntax Translation</div>
+          <p class="text-slate-400 font-sans text-xs">Injects verified optical terminology (e.g. 85mm f/1.4, volumetric caustics) and engine parameters (--v 6.0, --stylize, --chaos).</p>
+        </div>
+        <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+          <div class="text-emerald-400 font-bold mb-1">STAGE 3: Negative Prompt & Artifact Purging</div>
+          <p class="text-slate-400 font-sans text-xs">Dynamically binds negative seeds to eliminate anatomical anomalies, excessive digital noise, and brand violations.</p>
+        </div>
+      </div>
+
+      <div class="mt-6 flex justify-end">
+        <a href="https://github.com" target="_blank" class="px-5 py-2.5 rounded-xl bg-white text-slate-950 font-bold text-xs flex items-center gap-2 hover:bg-slate-200">
+          <i class="fa-brands fa-github"></i> View GitHub Repo
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- MODAL 3: KLYRA AI LIVE PROMPT SIMULATOR -->
+  <!-- ======================================================== -->
+  <div id="simulatorModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-xl">
+    <div class="glass-card w-full max-w-2xl rounded-3xl border border-neonCyan/50 p-6 sm:p-8 text-left relative shadow-glow-cyan">
+      <button onclick="closeKlyraSimulator()" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-900 border border-slate-700 text-slate-400 hover:text-white flex items-center justify-center">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-xs font-mono text-neonCyan uppercase font-semibold">Interactive Sandbox</span>
+      </div>
+      <h3 class="text-2xl font-display font-bold text-white mb-2">Klyra AI Prompt Expansion Simulator</h3>
+      <p class="text-xs text-slate-300 mb-6">Select or type a raw concept to watch Klyra AI enrich it into a commercial-grade generative prompt.</p>
+
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs font-mono text-slate-400 block mb-1.5">Select a Concept Preset:</label>
+          <select id="simPresetSelect" onchange="applyPreset()" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-xs text-white focus:outline-none focus:border-neonCyan">
+            <option value="perfume">Luxury Obsidian Perfume with Bioluminescent Core</option>
+            <option value="streetwear">Neo-Tokyo Cyberpunk Streetwear Model in Rain</option>
+            <option value="beverage">Frozen High-Speed Citrus Energy Drink Explosion</option>
+            <option value="headphones">Zero-Gravity Minimalist Matte Titanium Headphones</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="text-xs font-mono text-slate-400 block mb-1.5">Simulated Output Prompt (Expanded by Klyra AI):</label>
+          <div id="simOutputText" class="p-4 rounded-xl bg-slate-950 border border-neonCyan/40 text-neonCyan font-mono text-xs leading-relaxed select-all">
+            Commercial luxury perfume bottle photography, obsidian glass flacon with glowing luminescent cyan core, floating on dark liquid marble ripples, holographic mist, chromatic aberration, ray tracing reflections, cinematic lighting, Hasselblad H6D-100c --ar 16:9 --v 6.0 --style raw --stylize 850
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-2">
+          <span class="text-[11px] font-mono text-slate-400">Status: <span class="text-emerald-400">Ready to synthesize</span></span>
+          <button onclick="copySimulatorOutput()" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-neonCyan to-neonTeal text-slate-950 font-bold text-xs flex items-center gap-2 hover:scale-105 transition-all">
+            <i class="fa-regular fa-copy"></i>
+            <span>Copy Master Prompt</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING TOAST NOTIFICATION -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 hidden items-center gap-3 px-5 py-3 rounded-xl bg-slate-900 border border-neonCyan/50 text-white text-xs font-mono shadow-glow-cyan">
+    <i class="fa-solid fa-circle-check text-neonCyan text-sm"></i>
+    <span id="toastMessage">Copied to clipboard!</span>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // CASE STUDIES DATA STORE
+    const caseStudies = [
+      {
+        title: "Cyber-Luxe Perfume Commercial",
+        tag: "Midjourney v6 + Photoshop",
+        category: "Luxury Cosmetics & Commercial",
+        image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1200&q=80",
+        objective: "Create an ultra-luxury campaign visual for an avant-garde unisex fragrance brand. Needs to evoke high technology, dark obsidian textures, and ethereal bioluminescent water ripples without cheap CGI plastic shine.",
+        masterPrompt: "Commercial luxury perfume bottle photography, obsidian glass flacon with glowing luminescent cyan core, floating on dark liquid marble ripples, holographic mist, chromatic aberration, ray tracing reflections, cinematic lighting, Hasselblad H6D-100c --ar 16:9 --v 6.0 --style raw --stylize 850",
+        negativePrompt: "blurry, lowres, watermark, cartoon, plastic texture, overexposed, distorted geometry, grain, cheap 3D render",
+        parameters: "--ar 16:9 --v 6.0 --style raw --stylize 850 --chaos 5",
+        pipeline: {
+          stage1: "Conceptualized art direction in Klyra AI, defining optics, liquid refraction indices, and obsidian material parameters.",
+          stage2: "Synthesized 12 variations via Midjourney v6 using custom prompt weighting; upscaled top candidate with creative inpainting.",
+          stage3: "Imported into Adobe Photoshop for frequency separation, specular curve dodging, color grade balancing, and typography placement."
+        }
+      },
+      {
+        title: "Klyra AI Creative Asset Engine",
+        tag: "Custom Python AI Pipeline",
+        category: "Proprietary AI Engineering",
+        image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+        objective: "Build an algorithmic prompt engine capable of taking rudimentary human prompts and expanding them into multi-engine production-grade pipelines with brand rule consistency.",
+        masterPrompt: "Proprietary AI node graph visualization, neural network weights branching like luminescent glass fibers, neon cyan and deep purple telemetry readouts, dark cybernetic minimalism, clean UI dashboard overlay, 8k render, octane render style --ar 16:9 --v 6.0",
+        negativePrompt: "cluttered, messy artifacts, low resolution, 2D flat sketch, noise, bad text rendering",
+        parameters: "--ar 16:9 --v 6.0 --stylize 500",
+        pipeline: {
+          stage1: "Engineered Python backend orchestrator parsing lexical tokens and injecting specialized lighting & optics modifiers.",
+          stage2: "Automated API endpoints generating batch variations with automatic negative prompt binding.",
+          stage3: "Tested outputs against commercial brand standards with quantitative latency tracking (sub-150ms)."
+        }
+      },
+      {
+        title: "Futuristic Streetwear Ad Campaign",
+        tag: "Firefly + Illustrator",
+        category: "Fashion Editorial & Branding",
+        image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
+        objective: "Produce a high-fashion streetwear editorial visual for a Tokyo-inspired cyber apparel label. Combining iridescent fabric textures with realistic rainy night illumination.",
+        masterPrompt: "Editorial fashion portrait of avant-garde cyberpunk street model in reflective chrome-iridescent oversized bomber jacket, rainy neo-Shinjuku alley, puddle reflections, anamorphic blue flare, high contrast studio lighting, 35mm film aesthetic --ar 16:9 --v 6.0 --stylize 700",
+        negativePrompt: "distorted face, extra limbs, oversaturated skin, flat lighting, artifacts, deformed hands",
+        parameters: "--ar 16:9 --v 6.0 --stylize 700 --c 10",
+        pipeline: {
+          stage1: "Synthesized model silhouette and iridescent textile reflections using Adobe Firefly and Midjourney v6.",
+          stage2: "Extracted subject layer and refined edge hair and rain mist integration.",
+          stage3: "Designed vector typography grid, Japanese subtext, and graphic design lockups in Adobe Illustrator."
+        }
+      },
+      {
+        title: "Cinematic Sci-Fi Film Teaser",
+        tag: "Higgsfield + Premiere Pro",
+        category: "AI Video Motion Reel",
+        image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+        objective: "Direct a cinematic teaser sequence featuring monumental architectural scale, volumetric haze, and slow camera panning for an indie science fiction trailer.",
+        masterPrompt: "Cinematic wide shot, towering alien monolith structure pulsating with bioluminescent glyphs, crimson desert dunes, twin violet moons rising, volumetric sandstorm fog, IMAX 70mm lens, Denis Villeneuve aesthetic, photorealistic --ar 21:9 --v 6.0",
+        negativePrompt: "3D cartoon, CGI game look, low poly, noisy frames, static background, pixelated",
+        parameters: "--ar 21:9 --v 6.0 --quality 2 --stylize 800",
+        pipeline: {
+          stage1: "Constructed foundational keyframe concept with Klyra AI prompt architecture.",
+          stage2: "Fed master still into Higgsfield and Runway Gen-2 with custom camera pan right & tilt commands.",
+          stage3: "Imported motion stems into Adobe Premiere Pro for 24fps motion cadence, color grading (LUT), and cinematic sound mixing."
+        }
+      },
+      {
+        title: "Hyper-Realistic Beverage Poster",
+        tag: "Midjourney + After Effects",
+        category: "Commercial Concept & Motion",
+        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1200&q=80",
+        objective: "Capture high-speed liquid physics and frozen splash mechanics for a zero-sugar neon energy drink advertising campaign.",
+        masterPrompt: "High-speed commercial photography of zero-sugar electric citrus energy can bursting through frozen ice crystal splash, dynamic water droplets frozen in mid-air, backlit by intense electric cyan and violet strobe lights, condensation droplets, macro lens --ar 16:9 --v 6.0 --stylize 900",
+        negativePrompt: "muddy water, melted ice, unnatural reflections, fake blur, deformed can, lowres text",
+        parameters: "--ar 16:9 --v 6.0 --stylize 900",
+        pipeline: {
+          stage1: "Explored splash dynamics and high-speed strobe lighting parameters via Klyra AI prompt engine.",
+          stage2: "Synthesized multi-bracketed splash layers in Midjourney v6.",
+          stage3: "Composited crisp hero packaging in Photoshop, animated ambient condensation particles in After Effects."
+        }
+      },
+      {
+        title: "E-Commerce Product Mockup Reel",
+        tag: "Seedance + Photoshop",
+        category: "Social Commerce & 3D Render",
+        image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80",
+        objective: "Develop a zero-gravity product turntable reel for premium wireless headphones, optimized for 9:16 Instagram Reels conversion.",
+        masterPrompt: "Minimalist industrial design product hero shot, matte titanium wireless over-ear headphones floating weightlessly above frosted smoked glass plinth, soft ambient violet glow, studio softbox lighting, clean studio horizon --ar 16:9 --v 6.0",
+        negativePrompt: "messy cord, smudges, plastic sheen, asymmetric earcups, low resolution",
+        parameters: "--ar 16:9 --v 6.0 --stylize 600",
+        pipeline: {
+          stage1: "Synthesized immaculate hardware angles with matte metallic surface reflections.",
+          stage2: "Generated 360-degree rotation simulation using Seedance AI motion tools.",
+          stage3: "Formatted into 9:16 vertical reel in Premiere Pro with Hinglish voiceover hook and kinetic typography."
+        }
+      }
+    ];
+
+    // MODAL OPEN / CLOSE HANDLERS
+    function openModal(index) {
+      const p = caseStudies[index];
+      const body = document.getElementById('modalBody');
+      
+      body.innerHTML = `
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-slate-800 pb-5">
+          <div>
+            <span class="px-3 py-1 rounded-full bg-neonCyan/10 border border-neonCyan/40 text-neonCyan text-xs font-mono">${p.tag}</span>
+            <h3 class="text-2xl sm:text-3xl font-display font-bold text-white mt-2">${p.title}</h3>
+            <span class="text-xs text-slate-400 font-mono">${p.category}</span>
+          </div>
+        </div>
+
+        <div class="rounded-2xl overflow-hidden aspect-[21/9] bg-slate-900 border border-slate-800">
+          <img src="${p.image}" alt="${p.title}" class="w-full h-full object-cover">
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-xs font-mono uppercase text-neonCyan font-bold tracking-wider">Art Direction & Objective:</h4>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">${p.objective}</p>
+        </div>
+
+        <!-- Master Prompt Box -->
+        <div class="space-y-2">
+          <div class="flex items-center justify-between">
+            <h4 class="text-xs font-mono uppercase text-neonViolet font-bold tracking-wider">Master Engineered Prompt:</h4>
+            <button onclick="copyText(\`${p.masterPrompt}\`, 'Master Prompt Copied!')" class="text-xs text-neonCyan hover:underline font-mono flex items-center gap-1.5">
+              <i class="fa-regular fa-copy"></i> Copy Prompt
+            </button>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-950 border border-neonCyan/30 text-neonCyan font-mono text-xs leading-relaxed select-all">
+            ${p.masterPrompt}
+          </div>
+        </div>
+
+        <!-- Parameters & Negative Prompts Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800">
+            <span class="text-xs font-mono text-slate-400 block mb-1">Parameters & Flags:</span>
+            <span class="text-xs font-mono text-emerald-400">${p.parameters}</span>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800">
+            <span class="text-xs font-mono text-slate-400 block mb-1">Negative Prompt Matrix:</span>
+            <span class="text-xs font-mono text-rose-300">${p.negativePrompt}</span>
+          </div>
+        </div>
+
+        <!-- 3-Stage Pipeline Breakdown -->
+        <div class="space-y-3 pt-2">
+          <h4 class="text-xs font-mono uppercase text-slate-400 font-bold tracking-wider">3-Stage Production Pipeline:</h4>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+            <div class="p-3.5 rounded-xl bg-slate-900/70 border border-slate-800">
+              <div class="text-neonCyan font-mono font-bold mb-1">1. Ideation / Klyra AI</div>
+              <p class="text-slate-400 text-[11px] leading-relaxed">${p.pipeline.stage1}</p>
+            </div>
+            <div class="p-3.5 rounded-xl bg-slate-900/70 border border-slate-800">
+              <div class="text-neonViolet font-mono font-bold mb-1">2. Synthesis & Inpainting</div>
+              <p class="text-slate-400 text-[11px] leading-relaxed">${p.pipeline.stage2}</p>
+            </div>
+            <div class="p-3.5 rounded-xl bg-slate-900/70 border border-slate-800">
+              <div class="text-emerald-400 font-mono font-bold mb-1">3. Adobe Finishing Polish</div>
+              <p class="text-slate-400 text-[11px] leading-relaxed">${p.pipeline.stage3}</p>
+            </div>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('projectModal').classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('projectModal').classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    // ARCHITECTURE MODAL
+    function openArchitectureModal() {
+      document.getElementById('archModal').classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+    function closeArchitectureModal() {
+      document.getElementById('archModal').classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    // SIMULATOR MODAL
+    const simPresets = {
+      perfume: "Commercial luxury perfume bottle photography, obsidian glass flacon with glowing luminescent cyan core, floating on dark liquid marble ripples, holographic mist, chromatic aberration, ray tracing reflections, cinematic lighting, Hasselblad H6D-100c --ar 16:9 --v 6.0 --style raw --stylize 850",
+      streetwear: "Editorial fashion portrait of avant-garde cyberpunk street model in reflective chrome-iridescent oversized bomber jacket, rainy neo-Shinjuku alley, puddle reflections, anamorphic blue flare, high contrast studio lighting, 35mm film aesthetic --ar 16:9 --v 6.0 --stylize 700",
+      beverage: "High-speed commercial photography of zero-sugar electric citrus energy can bursting through frozen ice crystal splash, dynamic water droplets frozen in mid-air, backlit by intense electric cyan and violet strobe lights, condensation droplets, macro lens --ar 16:9 --v 6.0 --stylize 900",
+      headphones: "Minimalist industrial design product hero shot, matte titanium wireless over-ear headphones floating weightlessly above frosted smoked glass plinth, soft ambient violet glow, studio softbox lighting, clean studio horizon --ar 16:9 --v 6.0"
+    };
+
+    function openKlyraSimulator() {
+      document.getElementById('simulatorModal').classList.remove('hidden');
+      document.body.classList.add('overflow-hidden');
+    }
+    function closeKlyraSimulator() {
+      document.getElementById('simulatorModal').classList.add('hidden');
+      document.body.classList.remove('overflow-hidden');
+    }
+    function applyPreset() {
+      const key = document.getElementById('simPresetSelect').value;
+      document.getElementById('simOutputText').innerText = simPresets[key];
+    }
+    function copySimulatorOutput() {
+      const text = document.getElementById('simOutputText').innerText;
+      copyText(text, 'Klyra AI Master Prompt Copied!');
+    }
+
+    // TOAST & COPY HELPER
+    function copyText(str, msg) {
+      navigator.clipboard.writeText(str).then(() => {
+        const toast = document.getElementById('toast');
+        const toastMsg = document.getElementById('toastMessage');
+        toastMsg.innerText = msg || "Copied to clipboard!";
+        toast.classList.remove('hidden');
+        toast.classList.add('flex');
+        setTimeout(() => {
+          toast.classList.add('hidden');
+          toast.classList.remove('flex');
+        }, 2800);
+      }).catch(err => {
+        console.error("Clipboard copy failed", err);
+      });
+    }
+
+    // FILTER TABS LOGIC
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => {
+          b.classList.remove('bg-neonCyan', 'text-slate-950', 'shadow-glow-cyan');
+          b.classList.add('bg-slate-900/80', 'text-slate-300');
+        });
+        btn.classList.add('bg-neonCyan', 'text-slate-950', 'shadow-glow-cyan');
+        btn.classList.remove('bg-slate-900/80', 'text-slate-300');
+
+        const filter = btn.getAttribute('data-filter');
+        const cards = document.querySelectorAll('.project-card');
+
+        cards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (filter === 'all' || category.includes(filter)) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // MOBILE DRAWER TOGGLE
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const mobileDrawer = document.getElementById('mobileDrawer');
+    mobileBtn.addEventListener('click', () => {
+      mobileDrawer.classList.toggle('hidden');
+    });
+
+    // Close mobile drawer when clicking links
+    mobileDrawer.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileDrawer.classList.add('hidden');
+      });
+    });
+
+    // Close modals on Escape key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeModal();
+        closeArchitectureModal();
+        closeKlyraSimulator();
+      }
+    });
+  </script>
+</body>
+</html>
