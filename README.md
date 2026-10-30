@@ -1,7 +1,7 @@
 # ⚡ Kalyani G. Nemade — Generative AI & Visual Content Specialist Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live_Portfolio-00F2FE?style=for-the-badge&logo=vercel&logoColor=black)](https://kalyani-nemade.github.io/kalyani-genai-portfolio/)
-[![Creator of Klyra AI](https://img.shields.io/badge/Flagship-Klyra_AI_Engine-7928CA?style=for-the-badge&logo=python&logoColor=white)](https://github.com/kalyani-nemade/klyra-ai)
+[![Live Demo](https://img.shields.io/badge/Live_Portfolio-00F2FE?style=for-the-badge&logo=vercel&logoColor=black)](https://kalyaninemadework-pixel.github.io/kalyani-genai-portfolio/)
+[![Creator of Klyra AI](https://img.shields.io/badge/Flagship-Klyra_AI_Engine-7928CA?style=for-the-badge&logo=python&logoColor=white)](https://github.com/kalyaninemadework-pixel/klyra-ai)
 [![WhatsApp Contact](https://img.shields.io/badge/WhatsApp-Direct_Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/919021654318)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
@@ -42,11 +42,11 @@ A production-ready, ultra-modern, interactive **Cyberpunk Minimal / Luxury Dark 
 ### Option 1: GitHub Pages (Free & 1-Click)
 1. Fork or clone this repository:
    ```bash
-   git clone https://github.com/your-username/kalyani-genai-portfolio.git
+   git clone https://github.com/kalyaninemadework-pixel/kalyani-genai-portfolio.git
    ```
 2. In GitHub, go to **Settings** > **Pages**.
 3. Under **Build and deployment** > **Branch**, select `main` branch and `/ (root)` folder.
-4. Click **Save**. Your site will be live at `https://<your-username>.github.io/kalyani-genai-portfolio/` in 60 seconds!
+4. Click **Save**. Your site will be live at `https://kalyaninemadework-pixel.github.io/kalyani-genai-portfolio/` in 60 seconds!
 
 ### Option 2: Vercel (Instant HTTPS & Custom Domain)
 1. Connect your GitHub repository to [Vercel](https://vercel.com).
